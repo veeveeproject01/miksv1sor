@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (min-width: 768px) {
+body {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #D1FFEB
+    
+}
+
+.fronthead {
+    background-image: url("../images/bg2.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px
+}
+h5{
+    color: white;  
+    }
+footer {
+  margin-top: 300px;
+}
+    .serimage {
+	display: block;
+    width: 390px;
+    height: 350px;
+	box-shadow: 6px 6px 30px #000000;
+    padding-left: 0px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+body {
+    padding-top: 10px;
+    background-color: #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.fronthead {
+    background-image: url("../images/bgsmall.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+}
+    
+h1 {
+    color: white;
+    padding-left: 3%;
+    padding-top: 30px;
+    font-size-adjust: auto;
+}
+footer {
+  margin-top: 300px;
+}
+
+}
